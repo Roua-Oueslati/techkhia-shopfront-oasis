@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,6 +53,27 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				teal: {
+					100: '#E6FFFA',
+					200: '#B2F5EA',
+					500: '#38B2AC',
+					700: '#2C7A7B',
+					900: '#1D4044'
+				},
+				terracotta: {
+					100: '#FFF0EE',
+					300: '#F8ADA6',
+					500: '#E57373',
+					700: '#CD5C5C',
+					900: '#9A4444'
+				},
+				gold: {
+					100: '#FFF9E6',
+					300: '#FFE8A3',
+					500: '#FFD700',
+					700: '#B7950B',
+					900: '#7D6608'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -84,11 +106,24 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					from: { opacity: '0' },
+					to: { opacity: '1' }
+				},
+				'slide-up': {
+					from: { transform: 'translateY(10px)', opacity: '0' },
+					to: { transform: 'translateY(0)', opacity: '1' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.4s ease-out',
+				'slide-up': 'slide-up 0.4s ease-out'
+			},
+			backgroundImage: {
+				'geometric-pattern': "url('/pattern.svg')"
 			}
 		}
 	},
