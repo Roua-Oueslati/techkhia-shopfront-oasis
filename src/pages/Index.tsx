@@ -11,7 +11,7 @@ import Newsletter from "@/components/home/Newsletter";
 const Index = () => {
   return (
     <Layout>
-      <div className="space-y-8">
+      <div className="space-y-8 bg-[#f5f0e6]">
         <div className="container mx-auto px-4 mt-6">
           <HeroBanner />
         </div>

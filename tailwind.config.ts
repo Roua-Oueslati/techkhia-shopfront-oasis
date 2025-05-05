@@ -53,19 +53,19 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				teal: {
-					100: '#E6FFFA',
-					200: '#B2F5EA',
-					500: '#38B2AC',
-					700: '#2C7A7B',
-					900: '#1D4044'
+				burgundy: {
+					100: '#FEE9EC',
+					200: '#FAC8D0',
+					500: '#800020',  // Main burgundy color
+					700: '#600018',
+					900: '#400010'
 				},
-				terracotta: {
-					100: '#FFF0EE',
-					300: '#F8ADA6',
-					500: '#E57373',
-					700: '#CD5C5C',
-					900: '#9A4444'
+				beige: {
+					100: '#FFFBF4',
+					300: '#FAF5ED',
+					500: '#F5F0E6',  // Main beige color
+					700: '#E6D8C2',
+					900: '#C4B59D'
 				},
 				gold: {
 					100: '#FFF9E6',

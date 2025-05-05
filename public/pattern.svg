@@ -2,9 +2,9 @@
 <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <pattern id="geometric" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
-      <path d="M0 0L50 0L50 50L0 50Z" fill="none" stroke="rgba(0, 128, 128, 0.1)" stroke-width="1"/>
-      <path d="M50 50L100 50L100 100L50 100Z" fill="none" stroke="rgba(0, 128, 128, 0.1)" stroke-width="1"/>
-      <circle cx="50" cy="50" r="10" fill="none" stroke="rgba(255, 215, 0, 0.08)" stroke-width="1"/>
+      <path d="M0 0L50 0L50 50L0 50Z" fill="none" stroke="rgba(128, 0, 32, 0.1)" stroke-width="1"/>
+      <path d="M50 50L100 50L100 100L50 100Z" fill="none" stroke="rgba(128, 0, 32, 0.1)" stroke-width="1"/>
+      <circle cx="50" cy="50" r="10" fill="none" stroke="rgba(245, 240, 230, 0.15)" stroke-width="1"/>
     </pattern>
   </defs>
   <rect x="0" y="0" width="100" height="100" fill="url(#geometric)" />
