@@ -6,27 +6,27 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const slideData = [
   {
     id: 1,
-    title: "The Latest Tech for Less",
-    subtitle: "Explore our newest arrivals with special introductory prices",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=1200&h=600",
-    cta: "Shop Now",
-    path: "/new-arrivals"
+    title: "Bespoke Tailoring",
+    subtitle: "Handcrafted custom garments that reflect your unique style and personality",
+    image: "https://images.unsplash.com/photo-1558931269-381a5393b1ad?auto=format&fit=crop&q=80&w=1200&h=600",
+    cta: "Book Consultation",
+    path: "/services/custom"
   },
   {
     id: 2,
-    title: "Premium Accessories",
-    subtitle: "Enhance your tech experience with our curated accessories",
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=1200&h=600",
+    title: "Premium Fabrics",
+    subtitle: "Explore our curated collection of luxurious fabrics from around the world",
+    image: "https://images.unsplash.com/photo-1584304635456-ecd5bed8c7cc?auto=format&fit=crop&q=80&w=1200&h=600",
     cta: "Browse Collection",
-    path: "/category/accessories"
+    path: "/category/fabrics"
   },
   {
     id: 3,
-    title: "Work From Anywhere",
-    subtitle: "Powerful laptops and productivity tools for remote professionals",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=1200&h=600",
-    cta: "View Workstations",
-    path: "/category/laptops"
+    title: "Wedding Collection",
+    subtitle: "Make your special day unforgettable with our custom bridal and groom wear",
+    image: "https://images.unsplash.com/photo-1562348503-e8e77809f58d?auto=format&fit=crop&q=80&w=1200&h=600",
+    cta: "View Collection",
+    path: "/category/wedding"
   }
 ];
 
@@ -72,7 +72,7 @@ export default function HeroBanner() {
                 <div className="max-w-lg text-white space-y-6 animate-slide-up">
                   <h2 className="text-4xl md:text-5xl font-bold">{slide.title}</h2>
                   <p className="text-lg md:text-xl opacity-90">{slide.subtitle}</p>
-                  <Button size="lg" className="mt-4 bg-accent text-accent-foreground hover:bg-accent/90">
+                  <Button size="lg" className="mt-4 bg-[#800020] hover:bg-[#600018] text-white">
                     {slide.cta}
                   </Button>
                 </div>

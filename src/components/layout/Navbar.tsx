@@ -29,7 +29,7 @@ export default function Navbar() {
         {/* Top bar with logo and search */}
         <div className="flex items-center justify-between py-4">
           <Link to="/" className="flex items-center space-x-2">
-            <span className="text-2xl font-bold text-[#800020]">Couture</span>
+            <span className="text-2xl font-bold text-[#800020]">Tech</span>
             <span className="text-2xl font-bold arabic-text text-[#800020]">خياطة</span>
           </Link>
 
@@ -37,10 +37,10 @@ export default function Navbar() {
           <div className="hidden md:flex relative flex-1 mx-10 max-w-md">
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
             <Input 
-              placeholder="Search designs..." 
-              className="pl-10 w-full" 
+              placeholder="Search for fabric, designs..." 
+              className="pl-10 w-full border-[#800020]/20 focus-visible:ring-[#800020]/30" 
             />
-            <Button size="sm" className="absolute right-0 rounded-l-none">
+            <Button size="sm" className="absolute right-0 rounded-l-none bg-[#800020] hover:bg-[#600018]">
               Search
             </Button>
           </div>
@@ -124,7 +124,7 @@ export default function Navbar() {
             {/* Mobile search */}
             <div className="relative">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
-              <Input placeholder="Search designs..." className="pl-10 w-full" />
+              <Input placeholder="Search for fabric, designs..." className="pl-10 w-full border-[#800020]/20" />
             </div>
             
             {/* Mobile nav links */}
