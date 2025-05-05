@@ -6,24 +6,24 @@ const testimonials = [
   {
     id: 1,
     name: "Sarah Johnson",
-    position: "Tech Enthusiast",
-    content: "Techخيا has completely transformed my tech shopping experience. Their curated selection of premium products and seamless buying process make them my go-to for all tech purchases.",
+    position: "Bride",
+    content: "Techخياطة created my dream wedding dress with impeccable attention to detail. The craftsmanship exceeded my expectations, and the fitting process was so personalized and professional.",
     rating: 5,
     image: "https://i.pravatar.cc/150?img=1",
   },
   {
     id: 2,
-    name: "David Chen",
-    position: "Software Developer",
-    content: "As someone who relies heavily on tech for work, I appreciate Techخيا's focus on quality. Their customer service is outstanding and the products always arrive faster than expected.",
+    name: "Ahmed Al-Mansour",
+    position: "Business Executive",
+    content: "I've been getting my suits exclusively from Techخياطة for years. The quality of fabrics and precision of fit is unmatched. Their attention to detail makes all the difference in professional settings.",
     rating: 5,
     image: "https://i.pravatar.cc/150?img=8",
   },
   {
     id: 3,
     name: "Leila Ahmed",
-    position: "Content Creator",
-    content: "Finding reliable camera accessories used to be difficult until I discovered Techخيا. They offer competitive prices and their product descriptions are always accurate and helpful.",
+    position: "Fashion Designer",
+    content: "As someone in the fashion industry, I have high standards for tailoring. Techخياطة consistently delivers exquisite garments with remarkable craftsmanship and innovative designs.",
     rating: 4,
     image: "https://i.pravatar.cc/150?img=5",
   },
@@ -31,13 +31,13 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="py-16 bg-muted/30">
+    <section className="py-16 bg-[#f5f0e6]/70">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl md:text-3xl font-bold mb-3 text-center">
-          What Our <span className="text-primary">Customers</span> Say
+          What Our <span className="text-[#800020]">Clients</span> Say
         </h2>
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-12">
-          Don't just take our word for it. Here's what tech enthusiasts like you think about Techخيا.
+          Don't just take our word for it. Here's what our valued clients think about our bespoke tailoring services.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -48,7 +48,7 @@ export default function Testimonials() {
                   <img 
                     src={testimonial.image} 
                     alt={testimonial.name} 
-                    className="h-14 w-14 rounded-full object-cover border-2 border-primary"
+                    className="h-14 w-14 rounded-full object-cover border-2 border-[#800020]"
                   />
                 </div>
                 <div>
@@ -61,7 +61,7 @@ export default function Testimonials() {
                 {Array(5).fill(0).map((_, i) => (
                   <Star 
                     key={i} 
-                    className="h-4 w-4 text-accent" 
+                    className="h-4 w-4 text-[#800020]" 
                     fill={i < testimonial.rating ? "currentColor" : "none"}
                   />
                 ))}
